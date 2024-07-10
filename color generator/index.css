@@ -1,0 +1,37 @@
+body{
+    display: flex;
+   
+
+    justify-content: center;
+}
+.main{
+    
+    margin-top: 150px;
+    align-items: center;
+    
+}
+.container{
+    height: 50px;
+    width: 450px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;    
+}
+button{
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 40px;
+    width: 160px;
+    display: block;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+h2{
+   text-align: center;
+}
+button:hover{
+    color: blue;
+    background-color: chartreuse;
+}
